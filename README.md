@@ -1,5 +1,6 @@
 # Click'n'slide
 Gra logiczna polegająca na ułożeniu w całość pociętego obrazka.
+![Screen z gry](https://raw.githubusercontent.com/Kijek3/click-and-slide/master/ukladanka.png)
 
 ### Zasady gry
 * Twoim zadaniem jest ułożenie całego obrazka w jak najkrótszym czasie.
