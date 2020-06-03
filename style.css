@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+#main {
+    margin-top: 10px;
+    text-align: center;
+}
+
+#leftArrow, #rightArrow {
+    width: 50px;
+    height: 50px;
+    background-size: 50px;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+
+#leftArrow {
+    background-image: url(images/back.png);
+}
+
+#rightArrow {
+    background-image: url(images/next.png);
+}
+
+#photoDiv {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width: 250px;
+}
+
+#photoHolder {
+    position: relative;
+    overflow: hidden;
+    width: 150px;
+    height: 150px;
+}
+
+#photo, #photoLeft, #photoRight {
+    position: absolute;
+}
+
+#photoAnim {
+    position: absolute;
+    top: 0;
+    z-index: 2;
+}
+
+#buttons {
+    margin-top: 10px;
+}
+
+#bot {
+    position: absolute;
+    width: 20%;
+    height: 10%;
+    font-size: 1.5vw;
+    top: 380px;
+    left: 74%;
+    z-index: 1;
+    display: none;
+}
+
+.plansza {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+#game {
+    text-align: center;
+    margin-top: 10px;
+    position: relative;
+}
+
+#score {
+    /* min-width: 400px; */
+    position: absolute;
+    left: 40px;
+    color: white;
+    text-align: left;
+    z-index: 1;
+}
+
+#overlay {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#overlayDiv {
+    width: 300px;
+    height: 180px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: rgba(14, 126, 218, 0.8);
+    max-width: 100%;
+    max-height: 100%;
+    overflow: auto;
+}
+
+#overlayDiv input {
+    margin-top: 10px;
+}
+
+#overlayDiv p {
+    color: white;
+    margin-top: 20px;
+}
+
+#overlayMoves {
+    position: absolute;
+    bottom: 15px;
+    left: 20px;
+}
+
+#overlayDiv button {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    min-width: 100px;
+    min-height: 30px;
+}
+
+#clock {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    margin-top: 10px;
+}
